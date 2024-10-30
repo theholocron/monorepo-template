@@ -4,6 +4,5 @@
   "baseBranch": "main",
   "changelog": ["@changesets/changelog-github", {"repo": "theholocron/monorepo-template"}],
   "commit": false,
-  "fixed": [[]],
   "updateInternalDependencies": "patch"
 }
