@@ -14,6 +14,7 @@
     "packages/*"
   ],
   "scripts": {
+    "build": "turbo run build",
     "lint": "turbo run lint",
     "release": "changeset",
     "test": "turbo run test"
@@ -24,11 +25,12 @@
     "@theholocron/commitlint-config": "^3.4.4",
     "@theholocron/lint-staged-config": "^3.4.4",
     "alexjs": "^1.0.0",
-    "turbo": "^2.2.3"
+    "turbo": "^2.2.3",
+    "vitest": "^2.1.4"
   },
   "packageManager": "npm@9.5.0",
   "engines": {
-    "node": ">=23",
+    "node": ">=20",
     "npm": ">=10"
   },
   "publishConfig": {
