@@ -1,6 +1,6 @@
 {
   "name": "@theholocron/package-a",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "<description>",
   "homepage": "https://github.com/theholocron/monorepo-template/tree/main/packages/package-a#readme",
   "bugs": "https://github.com/theholocron/monorepo-template/issues",
