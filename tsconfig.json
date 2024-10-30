@@ -1,14 +1,6 @@
 {
-  "display": "Node Template",
+  "display": "Monorepo Template",
   "extends": "@tsconfig/node-lts/tsconfig.json",
-  "compilerOptions": {
-    "baseUrl": "./",
-    "outDir": "./dist",
-    "paths": {
-      "@/package": ["./package.json"],
-      "@/*": ["./src/*"]
-    }
-  },
   "include": ["**/*.ts"],
   "exclude": ["./node_modules"]
 }

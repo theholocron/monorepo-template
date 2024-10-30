@@ -1,56 +1,26 @@
 {
-  "name": "@theholocron/node-template",
+  "name": "@theholocron/monorepo-template",
+  "version": "0.0.0",
   "description": "<description>",
-  "homepage": "https://github.com/theholocron/node-template#readme",
-  "author": "Newton Koumantzelis",
-  "main": "dist/node-template.cjs.js",
-  "module": "dist/node-template.es.js",
-  "types": "dist/index.d.ts",
-  "exports": {
-    ".": {
-      "import": "./dist/node-template.es.js",
-      "require": "./dist/node-template.cjs.js"
-    }
-  },
-  "files": [
-    "dist/*"
-  ],
-  "type": "module",
-  "version": "1.2.0",
+  "homepage": "https://github.com/theholocron/monorepo-template#readme",
+  "bugs": "https://github.com/theholocron/monorepo-template/issues",
   "repository": {
     "type": "git",
-    "url": "https://github.com/theholocron/node-template.git"
+    "url": "git+https://github.com/theholocron/monorepo-template.git"
   },
-  "bugs": "https://github.com/theholocron/node-template/issues",
-  "releases": "https://github.com/theholocron/node-template/releases",
-  "wiki": "https://github.com/theholocron/node-template/wiki",
   "license": "GPL-3.0",
-  "packageManager": "npm@9.5.0",
-  "bundlewatch": {
-    "files": [
-      {
-        "path": "./dist/**/*.js",
-        "maxSize": "100 kB"
-      }
-    ]
-  },
-  "publishConfig": {
-    "access": "public"
-  },
+  "author": "Newton Koumantzelis",
+  "workspaces": [
+    "packages/*"
+  ],
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "build:storybook": "storybook build",
-    "lint": "docker run -e LOG_LEVEL=DEBUG -e RUN_LOCAL=true -v .:/tmp/lint --rm ghcr.io/super-linter/super-linter:latest",
-    "preview": "vite preview",
-    "start": "",
-    "test": "vitest"
-  },
-  "engines": {
-    "node": ">=23",
-    "npm": ">=10"
+    "lint": "turbo run lint",
+    "release": "changeset",
+    "test": "turbo run test"
   },
   "devDependencies": {
+    "@changesets/changelog-github": "^0.5.0",
+    "@changesets/cli": "^2.27.9",
     "@theholocron/commitlint-config": "^3.4.4",
     "@theholocron/eslint-config": "^3.4.4",
     "@theholocron/jest-config": "^3.4.4",
@@ -61,6 +31,16 @@
     "@theholocron/tsconfig": "^3.4.4",
     "@tsconfig/node-lts": "^20.1.3",
     "alexjs": "^1.0.0",
-    "vite": "^5.4.9"
-  }
+    "turbo": "^2.2.3"
+  },
+  "packageManager": "npm@9.5.0",
+  "engines": {
+    "node": ">=23",
+    "npm": ">=10"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "releases": "https://github.com/theholocron/monorepo-template/releases",
+  "wiki": "https://github.com/theholocron/monorepo-template/wiki"
 }

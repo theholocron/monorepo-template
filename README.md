@@ -1,23 +1,18 @@
-# Node Template
+# Monorepo Template
 
-A Node template used within the Galaxy.
+A monorepo template used within the Galaxy.
+
 
 ## Installation
 
 ```bash
-npm install --save-dev @theholocron/node-template
+npm install --save-dev @theholocron/monorepo-template
 ```
 
 ## Usage
 
-```typescript
-import { doSomething, type SomethingOptions } from "@theholocron/node-template";
-
-function App(options: SomethingOptions) {
-	return doSomething(options);
-}
-```
+<!-- add in usage -->
 
 ## Documentation
 
-Check out [The Holocron Archive](https://docs.theholocron.dev/projects/node-clients/) for more information.
+Check out [The Holocron Archive](https://docs.theholocron.dev/projects/monorepo-template/) for more information.
