@@ -1,5 +1,11 @@
 # @theholocron/package-a
 
+## 0.0.3
+
+### Patch Changes
+
+- [#6](https://github.com/theholocron/monorepo-template/pull/6) [`5e61510`](https://github.com/theholocron/monorepo-template/commit/5e615108738f07ebb9236366611b300ac64efc2a) Thanks [@iamnewton](https://github.com/iamnewton)! - Bring in feature parity
+
 ## 0.0.2
 
 ### Patch Changes
