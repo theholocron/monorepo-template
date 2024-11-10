@@ -10,28 +10,29 @@
   },
   "license": "GPL-3.0",
   "author": "Newton Koumantzelis",
-  "main": "dist/package-a.cjs.js",
-  "module": "dist/package-a.es.js",
-  "types": "dist/index.d.ts",
+  "type": "module",
   "exports": {
     ".": {
       "import": "./dist/package-a.es.js",
       "require": "./dist/package-a.cjs.js"
     }
   },
+  "main": "dist/package-a.cjs.js",
+  "module": "dist/package-a.es.js",
+  "types": "dist/index.d.ts",
   "files": [
     "dist/*"
   ],
-  "type": "module",
   "scripts": {
-    "dev": "vite",
     "build": "vite build",
+    "dev": "vite",
     "lint": "",
     "preview": "vite preview",
     "start": "",
-    "test": "vitest"
+    "test": "vitest run"
   },
   "devDependencies": {
+    "@codecov/vite-plugin": "^1.2.1",
     "@theholocron/eslint-config": "^3.5.1",
     "@theholocron/jest-config": "^3.5.1",
     "@theholocron/prettier-config": "^3.5.1",
@@ -40,6 +41,13 @@
     "vite": "^5.4.9"
   },
   "packageManager": "npm@9.5.0",
+  "engines": {
+    "node": ">=20",
+    "npm": ">=10"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
   "bundlewatch": {
     "files": [
       {
@@ -47,13 +55,6 @@
         "maxSize": "100 kB"
       }
     ]
-  },
-  "engines": {
-    "node": ">=20",
-    "npm": ">=10"
-  },
-  "publishConfig": {
-    "access": "public"
   },
   "releases": "https://github.com/theholocron/monorepo-template/releases",
   "wiki": "https://github.com/theholocron/monorepo-template/wiki"
