@@ -1,6 +1,6 @@
 {
   "display": "Mono Repo Template",
-  "extends": "@tsconfig/node-lts/tsconfig.json",
+  "extends": "@theholocron/tsconfig/node-lts",
   "compilerOptions": {
     "declaration": true,
     "emitDeclarationOnly": true,

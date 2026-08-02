@@ -1,6 +1,6 @@
 {
   "display": "Package A",
-  "extends": "@tsconfig/node-lts/tsconfig.json",
+  "extends": "@theholocron/tsconfig/node-lts",
   "include": ["**/*.ts"],
   "exclude": ["./node_modules"]
 }

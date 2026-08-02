@@ -2,7 +2,7 @@
   "name": "@theholocron/monorepo-template",
   "version": "0.0.0",
   "description": "<description>",
-  "homepage": "https://github.com/theholocron/monorepo-template#readme",
+  "homepage": "<homepage>",
   "bugs": "https://github.com/theholocron/monorepo-template/issues",
   "repository": {
     "type": "git",
@@ -17,29 +17,29 @@
   "scripts": {
     "build": "turbo run build",
     "lint": "turbo run lint",
-    "prepare": "husky",
     "release": "changeset",
-    "test": "turbo run test"
+    "test": "turbo run test",
+    "typecheck": "turbo run typecheck"
   },
   "devDependencies": {
     "@changesets/changelog-github": "^0.5.0",
     "@changesets/cli": "^2.27.9",
-    "@commitlint/cli": "^19.8.1",
-    "@commitlint/config-conventional": "^19.8.1",
-    "@theholocron/commitlint-config": "^4.1.0",
-    "@theholocron/lint-staged-config": "^4.1.0",
+    "@theholocron/cli": "^3.6.0",
+    "@theholocron/commitlint-config": "^7.8.1",
+    "@theholocron/eslint-config": "^7.8.1",
+    "@theholocron/holocron-config": "^7.8.1",
+    "@theholocron/prettier-config": "^7.8.1",
+    "@theholocron/tsconfig": "^7.8.1",
+    "@theholocron/tsdown-config": "^7.8.1",
+    "@theholocron/vitest-config": "^7.8.1",
     "@vitest/coverage-v8": "^3.2.4",
     "alex": "^11.0.1",
-    "husky": "^9.1.7",
-    "lint-staged": "^16.1.2",
-    "sort-package-json": "^3.4.0",
     "turbo": "^2.2.3",
     "vitest": "^3.2.4"
   },
-  "packageManager": "npm@9.5.0",
+  "packageManager": "pnpm@10.33.0",
   "engines": {
-    "node": ">=22",
-    "npm": ">=10"
+    "node": ">=22.0.0"
   },
   "publishConfig": {
     "access": "public"
