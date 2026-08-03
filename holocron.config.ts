@@ -3,10 +3,33 @@ import { node } from "@theholocron/holocron-config";
 
 const { repo, workflows, providers } = node();
 export default defineConfig({
-	description: "<description>",
-	homepage: "<homepage>",
-	repo,
-	workflows,
-	providers,
+	description: "Monorepo starter template for @theholocron repos.",
+	homepage: "https://docs.theholocron.dev/monorepo-template/",
+	repo: {
+		name: "theholocron/monorepo-template",
+		teams: [{ slug: "gatekeepers", permission: "maintain" }],
+		topics: ["monorepo", "pnpm", "template", "typescript"],
+		...repo,
+		protection: "balanced",
+		properties: {
+			...repo.properties,
+			open_source: true,
+			uses_external_packages: false,
+		},
+	},
+	workflows: [
+		...workflows,
+		{ name: "release", with: { "run-build": true } },
+		{
+			name: "deploy-docs",
+			with: { name: "monorepo-template" },
+			paths: ["docs/**"],
+		},
+	],
+	providers: {
+		...providers,
+		secrets: "github",
+	},
 	agent: "claude",
+	skills: ["git-safety", "pr-workflow", "commit-standards", "security-review"],
 });
