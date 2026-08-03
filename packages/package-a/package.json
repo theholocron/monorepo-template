@@ -47,14 +47,6 @@
   "publishConfig": {
     "access": "public"
   },
-  "bundlewatch": {
-    "files": [
-      {
-        "path": "./dist/**/*.js",
-        "maxSize": "100 kB"
-      }
-    ]
-  },
   "releases": "https://github.com/theholocron/monorepo-template/releases",
   "wiki": "https://github.com/theholocron/monorepo-template/wiki"
 }
