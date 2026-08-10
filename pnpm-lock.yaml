@@ -91,6 +91,9 @@ catalogs:
     sort-package-json:
       specifier: ^4.0.0
       version: 4.0.0
+    tsdown:
+      specifier: ^0.22.14
+      version: 0.22.14
     typescript:
       specifier: ^5.9.3
       version: 5.9.3
@@ -263,6 +266,9 @@ importers:
       prettier:
         specifier: 'catalog:'
         version: 3.9.6
+      tsdown:
+        specifier: 'catalog:'
+        version: 0.22.14(oxc-resolver@11.24.2)(tsx@4.23.4)(typescript@5.9.3)
       typescript:
         specifier: 'catalog:'
         version: 5.9.3

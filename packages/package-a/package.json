@@ -37,6 +37,7 @@
     "@theholocron/vitest-config": "catalog:configs",
     "@vitest/coverage-v8": "catalog:",
     "prettier": "catalog:",
+    "tsdown": "catalog:",
     "typescript": "catalog:",
     "vitest": "catalog:"
   },

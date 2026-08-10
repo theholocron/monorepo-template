@@ -1,5 +1,6 @@
-import { describe, test, expect } from "vitest";
-import add from "./index";
+import { describe, expect, test } from "vitest";
+
+import add from "./index.js";
 
 describe("add function", () => {
 	test("should return the correct sum", () => {
