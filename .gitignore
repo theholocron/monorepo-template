@@ -86,4 +86,5 @@ node_modules
 super-linter-output
 coverage
 reports
+test-report.junit.xml
 dist
