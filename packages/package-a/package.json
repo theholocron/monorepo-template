@@ -13,39 +13,47 @@
   "type": "module",
   "exports": {
     ".": {
-      "import": "./dist/package-a.es.js",
-      "require": "./dist/package-a.cjs.js"
+      "import": "./dist/index.mjs",
+      "default": "./dist/index.mjs"
     }
   },
-  "main": "dist/package-a.cjs.js",
-  "module": "dist/package-a.es.js",
-  "types": "dist/index.d.ts",
+  "main": "dist/index.mjs",
+  "types": "dist/index.d.mts",
   "files": [
-    "dist/*"
+    "dist"
   ],
   "scripts": {
-    "build": "vite build",
-    "dev": "vite",
-    "lint": "",
-    "preview": "vite preview",
-    "start": "",
+    "build": "tsdown",
+    "lint": "eslint .",
     "test": "vitest run",
+    "test:coverage": "vitest run --coverage",
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
-    "@codecov/vite-plugin": "^1.2.1",
-    "@theholocron/eslint-config": "^7.8.1",
-    "@theholocron/prettier-config": "^7.8.1",
-    "@theholocron/tsconfig": "^7.8.1",
-    "prettier": "^3.6.2",
-    "typescript": "^5.8.3",
-    "vite": "^7.0.6"
+    "@theholocron/eslint-config": "catalog:configs",
+    "@theholocron/prettier-config": "catalog:configs",
+    "@theholocron/tsconfig": "catalog:configs",
+    "@theholocron/tsdown-config": "catalog:configs",
+    "@theholocron/vitest-config": "catalog:configs",
+    "@vitest/coverage-v8": "catalog:",
+    "prettier": "catalog:",
+    "typescript": "catalog:",
+    "vitest": "catalog:"
   },
   "engines": {
     "node": ">=22.0.0"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "exports": {
+      ".": {
+        "types": "./dist/index.d.mts",
+        "import": "./dist/index.mjs",
+        "default": "./dist/index.mjs"
+      }
+    },
+    "main": "./dist/index.mjs",
+    "types": "./dist/index.d.mts"
   },
   "releases": "https://github.com/theholocron/monorepo-template/releases",
   "wiki": "https://github.com/theholocron/monorepo-template/wiki"

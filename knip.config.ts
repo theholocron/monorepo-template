@@ -3,12 +3,16 @@ import type { KnipConfig } from "knip";
 const config: KnipConfig = {
 	workspaces: {
 		".": {
-			entry: ["commitlint.config.ts", "holocron.config.ts"],
+			entry: ["commitlint.config.ts", "eslint.config.ts", "holocron.config.ts", "prettier.config.ts"],
 			project: ["*.ts"],
 		},
+		docs: {
+			entry: ["src/content.config.ts", "astro.config.ts"],
+			project: ["src/**/*.ts", "*.ts"],
+		},
 		"packages/*": {
-			entry: ["src/index.ts"],
-			project: ["src/**/*.ts"],
+			entry: ["src/index.ts", "tsdown.config.ts", "vitest.config.ts"],
+			project: ["src/**/*.ts", "*.ts"],
 		},
 	},
 	ignoreDependencies: [
