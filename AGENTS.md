@@ -18,9 +18,9 @@ read the same rules. Put durable, repo-wide agent guidance here.
 
 ## Packages
 
-| Package | Description |
-|---|---|
-| `@theholocron/package-a` | — |
+| Package                  | Description |
+| ------------------------ | ----------- |
+| `@theholocron/package-a` | —           |
 
 ## Quality
 

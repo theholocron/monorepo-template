@@ -1,4 +1,4 @@
-# Package A 
+# Package A
 
 <description>
 
