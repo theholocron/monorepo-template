@@ -3,7 +3,8 @@ import { node } from "@theholocron/holocron-config";
 
 const { repo, workflows, providers } = node();
 export default defineConfig({
-	description: "A modern NodeJS template for monorepos with pre-configured tools, best practices, and CI/CD setup for rapid project development.",
+	description:
+		"A modern NodeJS template for monorepos with pre-configured tools, best practices, and CI/CD setup for rapid project development.",
 	homepage: "https://docs.theholocron.dev/monorepo-template/",
 	repo: {
 		name: "theholocron/monorepo-template",
@@ -13,6 +14,7 @@ export default defineConfig({
 		protection: "balanced",
 		properties: {
 			...repo.properties,
+			runtime_environment: "node",
 			open_source: true,
 			uses_external_packages: false,
 		},
@@ -30,6 +32,7 @@ export default defineConfig({
 		...providers,
 		secrets: "github",
 	},
+	docs: { build: "workflow", https: true },
 	agent: "claude",
 	skills: ["git-safety", "pr-workflow", "commit-standards", "security-review"],
 });
