@@ -1,6 +1,6 @@
 # Package A
 
-<description>
+Sample package.
 
 ## Installation
 
