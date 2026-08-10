@@ -1,12 +1,9 @@
 {
   "display": "Mono Repo Template",
-  "extends": "@tsconfig/node-lts/tsconfig.json",
+  "extends": "@theholocron/tsconfig/node-lts",
   "compilerOptions": {
-    "declaration": true,
-    "emitDeclarationOnly": true,
-    "outDir": "dist",
-    "declarationMap": true
+    "outDir": "dist"
   },
-  "include": ["**/*.ts"],
-  "exclude": ["./node_modules"]
+  "include": ["*.ts"],
+  "exclude": ["node_modules", "dist", "docs", "packages"]
 }
