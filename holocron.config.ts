@@ -3,7 +3,7 @@ import { node } from "@theholocron/holocron-config";
 
 const { repo, workflows, providers } = node();
 export default defineConfig({
-	description: "Monorepo starter template for @theholocron repos.",
+	description: "A modern NodeJS template for monorepos with pre-configured tools, best practices, and CI/CD setup for rapid project development.",
 	homepage: "https://docs.theholocron.dev/monorepo-template/",
 	repo: {
 		name: "theholocron/monorepo-template",
