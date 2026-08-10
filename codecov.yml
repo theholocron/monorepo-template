@@ -18,4 +18,5 @@ component_management:
   individual_components:
     - component_id: package-a
       name: "package-a"
-      paths: [packages/package-a/**]
+      paths:
+        - packages/package-a/**
