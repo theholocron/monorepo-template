@@ -30,6 +30,7 @@
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
+    "@codecov/rollup-plugin": "^2.0.1",
     "@theholocron/eslint-config": "catalog:configs",
     "@theholocron/prettier-config": "catalog:configs",
     "@theholocron/tsconfig": "catalog:configs",
