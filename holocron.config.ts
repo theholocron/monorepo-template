@@ -22,7 +22,7 @@ export default defineConfig({
 	workflows: [
 		...workflows,
 		{ name: "release", with: { "run-build": true } },
-		{ name: "deploy", with: { type: "docs", name: "monorepo-template" }, paths: ["docs/**"] },
+		{ name: "deploy", with: { docs: true } },
 	],
 	providers: {
 		...providers,
