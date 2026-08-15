@@ -11,7 +11,7 @@ const config: Linter.Config[] = [
 			"n/no-unpublished-import": "off",
 		},
 	},
-	{ ignores: ["**/dist/**", "**/coverage/**"] },
+	{ ignores: ["docs/**", "**/dist/**", "**/coverage/**"] },
 ];
 
 export default config;
