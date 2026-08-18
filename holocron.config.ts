@@ -12,6 +12,7 @@ export default defineConfig({
 		topics: ["monorepo", "pnpm", "template", "typescript"],
 		...repo,
 		protection: "strict",
+		requiredChecks: ["audit / Knip", "audit / Audit the bundle size", "codecov/patch", "codecov/project/package-a"],
 		properties: {
 			...repo.properties,
 			runtime_environment: "node",
