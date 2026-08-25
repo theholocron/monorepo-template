@@ -11,11 +11,11 @@ catalog:
   '@semantic-release/exec': ^7.1.0
   '@semantic-release/git': ^11.0.1
   '@semantic-release/github': ^12.0.9
-  '@theholocron/docs-theme': ^1.3.5
+  '@theholocron/docs-theme': ^1.5.0
   '@vitest/coverage-v8': ^4.1.10
-  astro: ^7.2.2
+  astro: ^7.2.4
   conventional-changelog-conventionalcommits: ^10.3.0
-  eslint: ^10.8.1
+  eslint: ^10.9.0
   eslint-plugin-n: ^18.2.2
   eslint-plugin-simple-import-sort: ^14.0.0
   globals: ^17.11.0
@@ -33,20 +33,20 @@ catalog:
 # Shared configs — release in lockstep; bump all entries together.
 catalogs:
   configs:
-    '@theholocron/astro-config': ^7.22.2
-    '@theholocron/commitlint-config': ^7.19.1
+    '@theholocron/astro-config': ^7.23.1
+    '@theholocron/commitlint-config': ^7.23.1
     '@theholocron/eslint-config': ^7.23.1
-    '@theholocron/holocron-config': ^7.19.1
-    '@theholocron/lint-staged-config': ^7.19.1
+    '@theholocron/holocron-config': ^7.23.1
+    '@theholocron/lint-staged-config': ^7.23.1
     '@theholocron/prettier-config': ^7.19.1
-    '@theholocron/semantic-release-config': ^7.19.1
+    '@theholocron/semantic-release-config': ^7.23.1
     '@theholocron/tsconfig': ^7.19.1
     '@theholocron/tsdown-config': ^7.19.1
     '@theholocron/vitest-config': ^7.19.1
 
   holocron:
-    '@theholocron/cli': ^3.29.7
-    '@theholocron/holocron-plugin-github': ^3.24.4
+    '@theholocron/cli': ^3.29.12
+    '@theholocron/holocron-plugin-github': ^3.29.12
 
 overrides:
   '@eslint/json': ^1.2.0
