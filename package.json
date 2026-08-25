@@ -1,19 +1,20 @@
 {
   "name": "@theholocron/monorepo-template",
   "version": "1.1.2",
+  "private": true,
   "description": "A modern NodeJS template for monorepos with pre-configured tools, best practices, and CI/CD setup for rapid project development.",
+  "keywords": [
+    "monorepo",
+    "pnpm",
+    "template",
+    "typescript"
+  ],
   "homepage": "https://docs.theholocron.dev/monorepo-template/",
   "bugs": "https://github.com/theholocron/monorepo-template/issues",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/theholocron/monorepo-template.git"
-  },
+  "repository": "theholocron/monorepo-template",
   "license": "GPL-3.0",
   "author": "Newton Koumantzelis",
   "type": "module",
-  "workspaces": [
-    "packages/*"
-  ],
   "scripts": {
     "audit": "knip",
     "build": "turbo run build",
@@ -25,6 +26,7 @@
     "typecheck": "turbo run typecheck"
   },
   "devDependencies": {
+    "@astrojs/react": "catalog:",
     "@astrojs/starlight": "catalog:",
     "@commitlint/cli": "catalog:",
     "@eslint/js": "catalog:",
@@ -55,6 +57,8 @@
     "knip": "catalog:",
     "lint-staged": "catalog:",
     "prettier": "catalog:",
+    "react": "catalog:",
+    "react-dom": "catalog:",
     "semantic-release": "catalog:",
     "sort-package-json": "catalog:",
     "turbo": "^2.10.10",
@@ -65,11 +69,9 @@
   "engines": {
     "node": ">=22.0.0"
   },
-  "publishConfig": {
-    "access": "public"
-  },
   "pnpm": {
     "overrides": {
+      "@astrojs/react": "^6.0.0",
       "@commitlint/config-conventional>conventional-changelog-conventionalcommits": "7"
     }
   },
