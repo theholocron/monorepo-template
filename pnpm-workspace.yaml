@@ -38,7 +38,7 @@ catalogs:
   configs:
     '@theholocron/astro-config': ^7.23.1
     '@theholocron/commitlint-config': ^7.23.1
-    '@theholocron/eslint-config': ^7.23.1
+    '@theholocron/eslint-config': ^7.24.1
     '@theholocron/holocron-config': ^7.23.1
     '@theholocron/lint-staged-config': ^7.23.1
     '@theholocron/prettier-config': ^7.19.1

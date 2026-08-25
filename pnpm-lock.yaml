@@ -13,8 +13,8 @@ catalogs:
       specifier: ^7.23.1
       version: 7.25.0
     '@theholocron/eslint-config':
-      specifier: ^7.23.1
-      version: 7.23.1
+      specifier: ^7.24.1
+      version: 7.25.0
     '@theholocron/holocron-config':
       specifier: ^7.23.1
       version: 7.25.0
@@ -127,8 +127,8 @@ catalogs:
       version: 3.29.12
 
 overrides:
-  '@commitlint/config-conventional>conventional-changelog-conventionalcommits': '7'
   '@astrojs/react': ^6.0.0
+  '@commitlint/config-conventional>conventional-changelog-conventionalcommits': '7'
 
 importers:
 
@@ -172,7 +172,7 @@ importers:
         version: 1.7.0(@astrojs/starlight@0.41.7(astro@7.2.6(@emnapi/core@2.0.0-alpha.3)(@emnapi/runtime@2.0.0-alpha.3)(@types/node@26.2.0)(jiti@2.7.0)(tsx@4.23.12)(yaml@2.9.0))(typescript@5.9.3))(astro@7.2.6(@emnapi/core@2.0.0-alpha.3)(@emnapi/runtime@2.0.0-alpha.3)(@types/node@26.2.0)(jiti@2.7.0)(tsx@4.23.12)(yaml@2.9.0))
       '@theholocron/eslint-config':
         specifier: catalog:configs
-        version: 7.23.1(@eslint/js@10.0.1(eslint@10.9.0(jiti@2.7.0)))(eslint-plugin-n@18.3.0(eslint@10.9.0(jiti@2.7.0))(typescript@5.9.3))(eslint-plugin-simple-import-sort@14.0.0(eslint@10.9.0(jiti@2.7.0)))(eslint@10.9.0(jiti@2.7.0))(globals@17.11.0)(typescript-eslint@8.67.0(eslint@10.9.0(jiti@2.7.0))(typescript@5.9.3))
+        version: 7.25.0(@eslint/js@10.0.1(eslint@10.9.0(jiti@2.7.0)))(eslint-plugin-n@18.3.0(eslint@10.9.0(jiti@2.7.0))(typescript@5.9.3))(eslint-plugin-simple-import-sort@14.0.0(eslint@10.9.0(jiti@2.7.0)))(eslint@10.9.0(jiti@2.7.0))(globals@17.11.0)(typescript-eslint@8.67.0(eslint@10.9.0(jiti@2.7.0))(typescript@5.9.3))
       '@theholocron/holocron-config':
         specifier: catalog:configs
         version: 7.25.0(@theholocron/cli@3.29.12(@opentelemetry/core@2.10.0(@opentelemetry/api@1.9.1))(@types/node@26.2.0)(vitest@4.1.10))
@@ -2345,38 +2345,6 @@ packages:
     peerDependencies:
       '@astrojs/starlight': '>=0.30.0'
       astro: '>=5.0.0'
-
-  '@theholocron/eslint-config@7.23.1':
-    resolution: {integrity: sha512-TYbnFZnR0QT8R09is8swWkYOEcGAC+SrrBuEjAw1wtpBgjJ+3/I7sa5Q+nmTUx6Li/ew0dBlMradMAuxbH3wbA==}
-    engines: {node: '>=22.0.0'}
-    peerDependencies:
-      '@eslint/js': ^10
-      '@next/eslint-plugin-next': ^16
-      '@vitest/eslint-plugin': ^1
-      eslint: ^10
-      eslint-plugin-cypress: ^6
-      eslint-plugin-jsdoc: ^50.0.0
-      eslint-plugin-n: ^18
-      eslint-plugin-react: ^7
-      eslint-plugin-simple-import-sort: ^14
-      eslint-plugin-storybook: ^10
-      globals: ^17
-      typescript-eslint: ^8
-    peerDependenciesMeta:
-      '@next/eslint-plugin-next':
-        optional: true
-      '@vitest/eslint-plugin':
-        optional: true
-      eslint-plugin-cypress:
-        optional: true
-      eslint-plugin-jsdoc:
-        optional: true
-      eslint-plugin-n:
-        optional: true
-      eslint-plugin-react:
-        optional: true
-      eslint-plugin-storybook:
-        optional: true
 
   '@theholocron/eslint-config@7.25.0':
     resolution: {integrity: sha512-e54bUBlQaH+AcmDe7t9N5zP0PBmHLNyXjQ1WRlV0pYk7gEdS44UUjECAnKvQD4AlJcqbGc5wrlrtqacG/rU6jQ==}
@@ -8788,18 +8756,6 @@ snapshots:
       '@astrojs/starlight': 0.41.7(astro@7.2.6(@emnapi/core@2.0.0-alpha.3)(@emnapi/runtime@2.0.0-alpha.3)(@types/node@26.2.0)(jiti@2.7.0)(tsx@4.23.12)(yaml@2.9.0))(typescript@5.9.3)
       astro: 7.2.6(@emnapi/core@2.0.0-alpha.3)(@emnapi/runtime@2.0.0-alpha.3)(@types/node@26.2.0)(jiti@2.7.0)(tsx@4.23.12)(yaml@2.9.0)
       gray-matter: 4.0.3
-
-  '@theholocron/eslint-config@7.23.1(@eslint/js@10.0.1(eslint@10.9.0(jiti@2.7.0)))(eslint-plugin-n@18.3.0(eslint@10.9.0(jiti@2.7.0))(typescript@5.9.3))(eslint-plugin-simple-import-sort@14.0.0(eslint@10.9.0(jiti@2.7.0)))(eslint@10.9.0(jiti@2.7.0))(globals@17.11.0)(typescript-eslint@8.67.0(eslint@10.9.0(jiti@2.7.0))(typescript@5.9.3))':
-    dependencies:
-      '@eslint/compat': 2.1.0(eslint@10.9.0(jiti@2.7.0))
-      '@eslint/js': 10.0.1(eslint@10.9.0(jiti@2.7.0))
-      eslint: 10.9.0(jiti@2.7.0)
-      eslint-package-json: 0.3.0(eslint@10.9.0(jiti@2.7.0))
-      eslint-plugin-simple-import-sort: 14.0.0(eslint@10.9.0(jiti@2.7.0))
-      globals: 17.11.0
-      typescript-eslint: 8.67.0(eslint@10.9.0(jiti@2.7.0))(typescript@5.9.3)
-    optionalDependencies:
-      eslint-plugin-n: 18.3.0(eslint@10.9.0(jiti@2.7.0))(typescript@5.9.3)
 
   '@theholocron/eslint-config@7.25.0(@eslint/js@10.0.1(eslint@10.9.0(jiti@2.7.0)))(eslint-plugin-n@18.3.0(eslint@10.9.0(jiti@2.7.0))(typescript@5.9.3))(eslint-plugin-simple-import-sort@14.0.0(eslint@10.9.0(jiti@2.7.0)))(eslint@10.9.0(jiti@2.7.0))(globals@17.11.0)(typescript-eslint@8.67.0(eslint@10.9.0(jiti@2.7.0))(typescript@5.9.3))':
     dependencies:
