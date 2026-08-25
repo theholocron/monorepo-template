@@ -4,6 +4,7 @@ packages:
 
 # Shared dep versions for this repo.
 catalog:
+  '@astrojs/react': ^6.0.0
   '@astrojs/starlight': ^0.41.5
   '@commitlint/cli': ^21.2.2
   '@eslint/js': ^10.0.0

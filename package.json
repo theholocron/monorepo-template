@@ -26,6 +26,7 @@
     "typecheck": "turbo run typecheck"
   },
   "devDependencies": {
+    "@astrojs/react": "catalog:",
     "@astrojs/starlight": "catalog:",
     "@commitlint/cli": "catalog:",
     "@eslint/js": "catalog:",
@@ -70,6 +71,7 @@
   },
   "pnpm": {
     "overrides": {
+      "@astrojs/react": "^6.0.0",
       "@commitlint/config-conventional>conventional-changelog-conventionalcommits": "7"
     }
   },
