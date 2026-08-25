@@ -94,6 +94,12 @@ catalogs:
     prettier:
       specifier: ^3.6.2
       version: 3.9.6
+    react:
+      specifier: ^19.2.8
+      version: 19.2.8
+    react-dom:
+      specifier: ^19.2.8
+      version: 19.2.8
     semantic-release:
       specifier: ^25.0.8
       version: 25.0.9
@@ -217,6 +223,12 @@ importers:
       prettier:
         specifier: 'catalog:'
         version: 3.9.6
+      react:
+        specifier: 'catalog:'
+        version: 19.2.8
+      react-dom:
+        specifier: 'catalog:'
+        version: 19.2.8(react@19.2.8)
       semantic-release:
         specifier: 'catalog:'
         version: 25.0.9(typescript@5.9.3)
