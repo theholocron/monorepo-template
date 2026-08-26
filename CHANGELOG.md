@@ -1,3 +1,16 @@
+## [1.1.4](https://github.com/theholocron/monorepo-template/compare/v1.1.3...v1.1.4) (2026-08-26)
+
+### Bug Fixes
+
+* 🐛 pin conventional-changelog-conventionalcommits to 9.3.1 ([#140](https://github.com/theholocron/monorepo-template/issues/140)) ([0f69537](https://github.com/theholocron/monorepo-template/commit/0f6953774b6bf556a7a8847b10e0156c276a5d54))
+
+### Chores
+
+* add development and releases marker blocks to README ([#136](https://github.com/theholocron/monorepo-template/issues/136)) ([f130577](https://github.com/theholocron/monorepo-template/commit/f1305770494071b06489418307535a92880af5eb))
+* remove dupe docs ([#137](https://github.com/theholocron/monorepo-template/issues/137)) ([c023e3a](https://github.com/theholocron/monorepo-template/commit/c023e3a9323b05ce1e9686b7eb08d33b5f21537c))
+* sync from theholocron/holocron ([#138](https://github.com/theholocron/monorepo-template/issues/138)) ([f6c52d4](https://github.com/theholocron/monorepo-template/commit/f6c52d4201659faa5364fcdaef225f29878d9cde))
+* sync from theholocron/holocron ([#139](https://github.com/theholocron/monorepo-template/issues/139)) ([2edccdf](https://github.com/theholocron/monorepo-template/commit/2edccdfc788e9d398ed95e69dfffcea39e20583f))
+
 ## [1.1.3](https://github.com/theholocron/monorepo-template/compare/v1.1.2...v1.1.3) (2026-08-25)
 
 ## [1.1.2](https://github.com/theholocron/monorepo-template/compare/v1.1.1...v1.1.2) (2026-08-20)
