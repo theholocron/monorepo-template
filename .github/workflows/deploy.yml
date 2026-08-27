@@ -29,4 +29,5 @@ jobs:
     uses: theholocron/.github/.github/workflows/deploy.yml@main
     with:
       type: docs
+      name: theholocron/monorepo-template
     secrets: inherit
