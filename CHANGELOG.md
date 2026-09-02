@@ -2,7 +2,7 @@
 
 ### Chores
 
-* **deps:** Bump the all-dependencies group across 1 directory with 11 updates ([#144](https://github.com/theholocron/monorepo-template/issues/144)) ([6f92375](https://github.com/theholocron/monorepo-template/commit/6f923756e9775c439cabe6d65905f677f4ff0c4a))
+- **deps:** Bump the all-dependencies group across 1 directory with 11 updates ([#144](https://github.com/theholocron/monorepo-template/issues/144)) ([6f92375](https://github.com/theholocron/monorepo-template/commit/6f923756e9775c439cabe6d65905f677f4ff0c4a))
 
 ## [1.1.5](https://github.com/theholocron/monorepo-template/compare/v1.1.4...v1.1.5) (2026-09-02)
 
