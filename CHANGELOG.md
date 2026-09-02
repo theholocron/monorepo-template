@@ -2,10 +2,10 @@
 
 ### Chores
 
-* ⬆️ adopt monorepo(nodeDocs()) preset ([#142](https://github.com/theholocron/monorepo-template/issues/142)) ([af12b28](https://github.com/theholocron/monorepo-template/commit/af12b28214ca5e7e4571e21b0c6b43421f9dd590))
-* **deps:** Bump conventional-changelog-conventionalcommits ([#145](https://github.com/theholocron/monorepo-template/issues/145)) ([ae2179f](https://github.com/theholocron/monorepo-template/commit/ae2179fb40ba91a164f3c6d4b736416b26ac65dd))
-* sync from theholocron/holocron ([#141](https://github.com/theholocron/monorepo-template/issues/141)) ([ef77063](https://github.com/theholocron/monorepo-template/commit/ef7706365fbba8f52718b7b9cac63573c07bc81a))
-* sync from theholocron/holocron ([#143](https://github.com/theholocron/monorepo-template/issues/143)) ([8ae4d76](https://github.com/theholocron/monorepo-template/commit/8ae4d767c1aa1c1c0d2c57f0151bc8b647f7cd7b))
+- ⬆️ adopt monorepo(nodeDocs()) preset ([#142](https://github.com/theholocron/monorepo-template/issues/142)) ([af12b28](https://github.com/theholocron/monorepo-template/commit/af12b28214ca5e7e4571e21b0c6b43421f9dd590))
+- **deps:** Bump conventional-changelog-conventionalcommits ([#145](https://github.com/theholocron/monorepo-template/issues/145)) ([ae2179f](https://github.com/theholocron/monorepo-template/commit/ae2179fb40ba91a164f3c6d4b736416b26ac65dd))
+- sync from theholocron/holocron ([#141](https://github.com/theholocron/monorepo-template/issues/141)) ([ef77063](https://github.com/theholocron/monorepo-template/commit/ef7706365fbba8f52718b7b9cac63573c07bc81a))
+- sync from theholocron/holocron ([#143](https://github.com/theholocron/monorepo-template/issues/143)) ([8ae4d76](https://github.com/theholocron/monorepo-template/commit/8ae4d767c1aa1c1c0d2c57f0151bc8b647f7cd7b))
 
 ## [1.1.4](https://github.com/theholocron/monorepo-template/compare/v1.1.3...v1.1.4) (2026-08-26)
 
