@@ -1,3 +1,9 @@
+## [1.2.0](https://github.com/theholocron/monorepo-template/compare/v1.1.6...v1.2.0) (2026-09-02)
+
+### Features
+
+* ✨ add wiki/fern docs setup ([#146](https://github.com/theholocron/monorepo-template/issues/146)) ([3356c4f](https://github.com/theholocron/monorepo-template/commit/3356c4fa08731cedb5bc706eda5379166448a600))
+
 ## [1.1.6](https://github.com/theholocron/monorepo-template/compare/v1.1.5...v1.1.6) (2026-09-02)
 
 ### Chores
