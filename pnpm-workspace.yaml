@@ -15,7 +15,7 @@ catalog:
   '@theholocron/docs-theme': ^1.5.0
   '@vitest/coverage-v8': ^4.1.10
   astro: ^7.2.4
-  conventional-changelog-conventionalcommits: ^10.3.0
+  conventional-changelog-conventionalcommits: ^10.4.0
   eslint: ^10.9.0
   eslint-plugin-n: ^18.2.2
   eslint-plugin-simple-import-sort: ^14.0.0
