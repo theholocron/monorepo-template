@@ -241,7 +241,7 @@ importers:
         specifier: 'catalog:'
         version: 5.9.3
       typescript-eslint:
-        specifier: 8.68.0
+        specifier: 'catalog:'
         version: 8.68.0(eslint@10.9.1(jiti@2.7.0))(typescript@5.9.3)
 
   docs: {}
