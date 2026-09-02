@@ -1,7 +1,7 @@
 import { defineConfig } from "@theholocron/cli";
-import { monorepo, nodeDocs } from "@theholocron/holocron-config";
+import { compose, monorepo, nodeDocs, wikiCapability as wiki } from "@theholocron/holocron-config";
 
-const { repo, workflows, providers, org, domain, docs } = monorepo(nodeDocs());
+const { repo, workflows, providers, org, domain, docs } = compose(monorepo(nodeDocs()), wiki());
 export default defineConfig({
 	description:
 		"A modern NodeJS template for monorepos with pre-configured tools, best practices, and CI/CD setup for rapid project development.",
