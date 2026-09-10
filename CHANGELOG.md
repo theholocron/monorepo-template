@@ -2,12 +2,12 @@
 
 ### Features
 
-* ✨ add wiki navbar links ([#151](https://github.com/theholocron/monorepo-template/issues/151)) ([0850913](https://github.com/theholocron/monorepo-template/commit/085091364948f4e8ba155bdf418718ba6809e84e))
+- ✨ add wiki navbar links ([#151](https://github.com/theholocron/monorepo-template/issues/151)) ([0850913](https://github.com/theholocron/monorepo-template/commit/085091364948f4e8ba155bdf418718ba6809e84e))
 
 ### Chores
 
-* ✨ add wiki icon and bump Fern to 5.114.1 ([#148](https://github.com/theholocron/monorepo-template/issues/148)) ([7d342b1](https://github.com/theholocron/monorepo-template/commit/7d342b1cafab76bd96c55209d77db7f03fa57b89))
-* 🗑️ remove orphaned workflow files ([#147](https://github.com/theholocron/monorepo-template/issues/147)) ([ff79ec2](https://github.com/theholocron/monorepo-template/commit/ff79ec21ab13ba52be284bbc7ff109b7b2704f28))
+- ✨ add wiki icon and bump Fern to 5.114.1 ([#148](https://github.com/theholocron/monorepo-template/issues/148)) ([7d342b1](https://github.com/theholocron/monorepo-template/commit/7d342b1cafab76bd96c55209d77db7f03fa57b89))
+- 🗑️ remove orphaned workflow files ([#147](https://github.com/theholocron/monorepo-template/issues/147)) ([ff79ec2](https://github.com/theholocron/monorepo-template/commit/ff79ec21ab13ba52be284bbc7ff109b7b2704f28))
 
 ## [1.2.0](https://github.com/theholocron/monorepo-template/compare/v1.1.6...v1.2.0) (2026-09-02)
 
