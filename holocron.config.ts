@@ -1,7 +1,7 @@
 import { defineConfig } from "@theholocron/cli";
-import { compose, monorepo, nodeDocs, wikiCapability as wiki } from "@theholocron/holocron-config";
+import { monorepo, nodeDocs } from "@theholocron/holocron-config";
 
-const preset = compose(monorepo(nodeDocs()), wiki());
+const preset = monorepo(nodeDocs());
 export default defineConfig({
 	...preset,
 	description:
