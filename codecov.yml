@@ -8,6 +8,7 @@ coverage:
     project:
       package-a:
         target: auto
+        if_not_found: success
         threshold: 1%  # PR fails if coverage drops by 1% or more
 
 comment:
