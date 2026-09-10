@@ -5,7 +5,7 @@ packages:
 # Shared dep versions for this repo.
 catalog:
   '@astrojs/react': ^6.0.0
-  '@astrojs/starlight': ^0.41.10
+  '@astrojs/starlight': ^0.42.0
   '@commitlint/cli': ^21.2.2
   '@eslint/js': ^10.0.0
   '@semantic-release/changelog': ^7.0.0
@@ -14,15 +14,15 @@ catalog:
   '@semantic-release/github': ^12.0.9
   '@theholocron/docs-theme': ^1.10.1
   '@vitest/coverage-v8': ^4.1.10
-  astro: ^7.2.9
+  astro: ^7.3.1
   conventional-changelog-conventionalcommits: ^10.4.0
-  eslint: ^10.9.1
+  eslint: ^10.10.0
   eslint-plugin-n: ^18.2.2
   eslint-plugin-simple-import-sort: ^14.0.0
   globals: ^17.11.0
   husky: ^9.1.7
   knip: ^6.33.0
-  lint-staged: ^17.4.1
+  lint-staged: ^17.5.0
   prettier: ^3.6.2
   react: ^19.2.8
   react-dom: ^19.2.8
@@ -30,7 +30,7 @@ catalog:
   sort-package-json: ^4.0.0
   tsdown: ^0.22.14
   typescript: ^5.9.3
-  typescript-eslint: ^8.68.0
+  typescript-eslint: ^8.70.0
   vitest: ^4.1.10
 
 # Shared configs — release in lockstep; bump all entries together.
