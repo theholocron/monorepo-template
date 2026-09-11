@@ -1,3 +1,14 @@
+## [1.3.1](https://github.com/theholocron/monorepo-template/compare/v1.3.0...v1.3.1) (2026-09-11)
+
+### Bug Fixes
+
+* **hooks:** 🐛 scope pre-commit GitLeaks scan to staged changes ([#158](https://github.com/theholocron/monorepo-template/issues/158)) ([543f3b8](https://github.com/theholocron/monorepo-template/commit/543f3b8e45004b1dae659a46717f6ce1542f12bd))
+
+### Chores
+
+* ⬆️ migrate to @theholocron/cli 4.16.2 + holocron-config 8.x ([#153](https://github.com/theholocron/monorepo-template/issues/153)) ([b346eba](https://github.com/theholocron/monorepo-template/commit/b346eba4e24520760064811a67ba85b52c1c939b)), closes [#647](https://github.com/theholocron/monorepo-template/issues/647)
+* 🔧 holocron setup — ruleset + workflow/config sync ([#156](https://github.com/theholocron/monorepo-template/issues/156)) ([6365b41](https://github.com/theholocron/monorepo-template/commit/6365b41cdce5fc0bd72caf352599ab74ad3dab48)), closes [#647](https://github.com/theholocron/monorepo-template/issues/647) [#649](https://github.com/theholocron/monorepo-template/issues/649) [#649](https://github.com/theholocron/monorepo-template/issues/649) [#647](https://github.com/theholocron/monorepo-template/issues/647)
+
 ## [1.3.0](https://github.com/theholocron/monorepo-template/compare/v1.2.0...v1.3.0) (2026-09-06)
 
 ### Features
