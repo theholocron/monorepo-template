@@ -1,3 +1,9 @@
+## [1.3.2](https://github.com/theholocron/monorepo-template/compare/v1.3.1...v1.3.2) (2026-09-12)
+
+### Bug Fixes
+
+* 🐛 rename yamllint.config.yml to .yamllint.yml for auto-detection ([#159](https://github.com/theholocron/monorepo-template/issues/159)) ([b8e1b60](https://github.com/theholocron/monorepo-template/commit/b8e1b60cced6c4682c3f1a07c7dad1db1f778e8f))
+
 ## [1.3.1](https://github.com/theholocron/monorepo-template/compare/v1.3.0...v1.3.1) (2026-09-11)
 
 ### Bug Fixes
