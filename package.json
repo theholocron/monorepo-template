@@ -61,7 +61,7 @@
     "react-dom": "catalog:",
     "semantic-release": "catalog:",
     "sort-package-json": "catalog:",
-    "turbo": "^2.10.10",
+    "turbo": "^2.11.2",
     "typescript": "catalog:",
     "typescript-eslint": "catalog:"
   },
