@@ -12,7 +12,7 @@
   "homepage": "https://docs.theholocron.dev/monorepo-template/",
   "bugs": "https://github.com/theholocron/monorepo-template/issues",
   "repository": "theholocron/monorepo-template",
-  "license": "GPL-3.0",
+  "license": "MIT",
   "author": "Newton Koumantzelis",
   "type": "module",
   "scripts": {
