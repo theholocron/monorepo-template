@@ -10,7 +10,7 @@
   "homepage": "https://github.com/theholocron/monorepo-template/tree/main/packages/package-a#readme",
   "bugs": "https://github.com/theholocron/monorepo-template/issues",
   "repository": "github:theholocron/monorepo-template",
-  "license": "GPL-3.0",
+  "license": "MIT",
   "author": "Newton Koumantzelis",
   "sideEffects": false,
   "type": "module",
